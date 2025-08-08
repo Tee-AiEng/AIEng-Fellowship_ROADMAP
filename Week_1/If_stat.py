@@ -1,3 +1,4 @@
+
 T_T_code= int(input("Enter your code: "))
 print("Welcome to Tee&Tee your one stop shop for your necessities\n1.Buy Frozen Foods\n2.Buy Raw Foods\n3.Buy Toiletries\n4.Pay Bills")
 option = int(input("Enter option: "))
@@ -14,7 +15,6 @@ if option == 1:
     else:
         weg = input("Enter weight in kg:3500 perkg")
         print("make payment to the bank deatils below\nFBN(323456987)\nYour order is on the way\nThank you for your patronage\nHave a lovely day")
-        
 elif option == 2:
     print("1.Rice\n2.Beans\n3.Garri")
     opt = int(input("Enter option: "))
