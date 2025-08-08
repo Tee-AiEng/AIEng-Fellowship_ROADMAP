@@ -17,3 +17,18 @@ print(f"Basic info: My name is {name1}, I am {age1}years,\nI am a {ocupation}.\n
 # printed the customer's responsetee
 order = input("What will you like to have: ") 
 print(f"Hello, Welcome,\nWaiter: What will you like to have. Cus: I will like to have {order}, Thank you", )
+
+# create a ussd prompt with me
+code = int(input("Enter your code: "))
+print("1.Buy airtime\n2.Buy data\n3.Check Balance\n4.Borrow airtime\n5.borrow data")
+num = int(input("enter number: "))
+print("1.buy for self\n2.buy for others")
+num = int(input("enter number: "))
+number = int(input("Enter number: "))
+amnt = int(input("Enter amount: "))
+print("1.Pay with Card\n2. Pay with Mobile Bank")
+num = int(input("enter number: "))
+print("1.UBA\n2.FBN\n3.ACC\n4.ZEN\n5.GTB")
+num = int(input("enter number: "))
+code2 = int(input("Enter your code: "))
+print("Transaction sucessful, expect a pop-up message. Thank you.")
