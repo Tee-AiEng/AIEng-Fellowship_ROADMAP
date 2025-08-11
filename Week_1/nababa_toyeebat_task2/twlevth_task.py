@@ -1,0 +1,8 @@
+print("Welcome to Tee communications, thanks for using our services")
+Ussd = input("Dial code: ")
+print(f"1.Check Balance\n2.Buy Airtime\n3.Buy Data\n4.Borrow Airtime\n5.Borrow Data")
+chossed_option = int(input("Select between 1 to 5:"))
+print(f"are you sure you want to proceed with the option {chossed_option}")
+number = input("Enter your number: ")
+otp = input("Enter otp: ")
+print("your transaction has been sucessful, redial code to start again")
