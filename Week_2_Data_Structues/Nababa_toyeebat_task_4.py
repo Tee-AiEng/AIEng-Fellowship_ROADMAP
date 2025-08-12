@@ -19,29 +19,29 @@ words = sen.split() # split the input to words
 print(len(words)) # prints the number of words
 
 # task_4
-names = input("Enter 5 names(separated by spaces): ")
-split_names = names.lower().split(" ")
-split_names.sort()
+names = input("Enter 5 names(separated by spaces): ") # coolects an input from user
+split_names = names.lower().split(" ") # convert to lwer case, then splits
+split_names.sort() # sorts the name
 print(split_names)
-all_names = [print(f"{name}") for name in split_names]
+all_names = [print(f"{name}") for name in split_names] # prints the name in new line
 
 # task_5
-name = []
-score = []
-nam = input("Enter name: ")
-nam_1 = input("Enter name: ")
-nam_2 = input("Enter name: ")
-scr = input("Enter score: ")
-scr_1 = input("Enter score: ")
-scr_2 = input("Enter score: ")
+name = [] # empty list
+score = [] # empty list
+nam = input("Enter name: ") # collects input
+nam_1 = input("Enter name: ") # collects input
+nam_2 = input("Enter name: ") # collects input
+scr = input("Enter score: ") # collects input
+scr_1 = input("Enter score: ")# collects input
+scr_2 = input("Enter score: ") # collects input
 
-name.append(nam)
-name.append(nam_1)
-name.append(nam_2)
+name.append(nam) # add to the list
+name.append(nam_1) # add to the list
+name.append(nam_2)  # add to the list
 
-score.append(scr)
-score.append(scr_1)
-score.append(scr_2)
+score.append(scr) # add to the list
+score.append(scr_1) # add to the list
+score.append(scr_2) # add to the list
 print("Name\t| Score")
 print("="*20)
 print(f"{name[0]} \t | {score[0]}")
