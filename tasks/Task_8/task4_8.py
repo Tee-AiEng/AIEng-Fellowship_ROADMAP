@@ -1,6 +1,6 @@
 student ={}
 name = input("Enter name: ")
-age = input("Enter age: ")
+age = int(input("Enter age: "))
 student["Name"] = name
 student["Age"] = age
 scores = [70,85,95]
