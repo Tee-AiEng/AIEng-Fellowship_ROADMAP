@@ -11,5 +11,5 @@ print(f"{num1} < {num2} : {num1 < num2}")
 # the output will be true if num1 is  less than  num2 otherwise false
 
 # Use cases
-Student Exam Result
-Physical Exam Result
+it can be use to check eligibilty for a 
+
