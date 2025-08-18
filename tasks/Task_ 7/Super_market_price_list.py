@@ -10,7 +10,8 @@ dic[ittems[1]] = itm_2
 dic[ittems[2]] = itm_3
 
 print(dic) 
-change_itm = input("Enter item: ")
+print(dic.keys())
+change_itm = input("Enter item(from the list of itms above): ")
 change_price = float(input("Enter price: "))
 dic.update({change_itm:change_price})
 print(dic)
