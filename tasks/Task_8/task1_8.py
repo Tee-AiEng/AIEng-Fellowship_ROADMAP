@@ -11,5 +11,17 @@ print(f"{num1} < {num2} : {num1 < num2}")
 # the output will be true if num1 is  less than  num2 otherwise false
 
 # Use cases
-it can be use to check eligibilty for a 
+# it can be use to check eligibilty for a of a studenet to be prometed to next class
+# it can be use to check eligibilty for air hostess job
+# it can be use to check the eligibity for a pysical procedure.
+
+# code line for second use case
+normal_height = 160 # cut-off height
+user_height = int(input('Enter your height: ')) # user"s
+
+print(f"User is eligible : {normal_height == user_height}")
+print(f"User not eligible : !=  {normal_height != user_height}")
+print(f"User is eligible : {normal_height > user_height}")
+print(f"User not eligible : {num1 < num2}")
+
 
