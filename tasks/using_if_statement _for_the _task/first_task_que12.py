@@ -95,7 +95,7 @@ while True:
             opt = input("Enter your option: ")
             if opt == "1":
                 amount = input("Enter amount: ")
-                print("Are you sure?\n1.\tYes\n2.\tNo")
+                print("Please note #15 service charge will be deducted along with your debt from ypur next payment, Are you sure?\n1.\tYes\n2.\tNo")
                 optin = input("Enter your option: ")
                 if optin == "1":
                     print(f"Your line has been credited with {amount}. Thank you for using our services\nPress 5 to exit")
@@ -103,7 +103,7 @@ while True:
                     print("Select a new option on the mainmenu.")
             elif opt == "2":
                 number = input("Enter the number: ")
-                print(f"Are you sure of {number}?\nPress 1 to proceed")
+                print(f"Please note #15 service charge will be deducted along with your debt from ypur next payment,Are you sure of {number}?\nPress 1 to proceed")
                 proceed = input("Enter 1 to procced:")
                 if proceed == "1":
                     amnt = input("Enter amount: ")
@@ -112,6 +112,80 @@ while True:
                     print("Select a new option on the mainmenu.")
             else:
                 print("Select a new option on the mainmenu.")
+        elif opt == "2":
+            print("1.Borrow for self")
+            print("2.Borrow for others")
+            opt = input("Enter your option: ")
+            if opt == "1":
+                print("\nData Menu")
+                print("1. #415 - 1gb")
+                print("2. #715 - 2gb")
+                print("3. #1515 - 5gb")
+                print("4. #3515 - 12gb")
+                print("5. #5015 - 17gb")
+                amount = input("Enter amount in gb: ")
+                print("Are you sure?\n1.\tYes\n2.\tNo")
+                optin = input("Enter your option: ")
+                if optin == "1":
+                     print(f"Your line has been credited with {amount}. Thank you for using our services\nPress 5 to exit")
+                else:
+                    print("Select a new option on the mainmenu.")
+            elif opt == "2":
+                number = input("Enter the number: ")
+                print(f"Are you sure of {number}?\nPress 1 to proceed")
+                proceed = input("Enter 1 to procced:")
+                if proceed == "1":
+                    print("\nData Menu")
+                    print("1. #415 - 1gb")
+                    print("2. #715 - 2gb")
+                    print("3. #1515 - 5gb")
+                    print("4. #3515 - 12gb")
+                    print("5. #5015 - 17gb")
+                    amnt = input("Enter amount in gb: ")
+                    print(f"The {number} has been credited with {amnt}. Thank you for using our services\nPress 5 to exit")
+                else:
+                    print("Select a new option on the mainmenu.")
+            else:
+                print("Select a new option on the mainmenu.")
+    elif choice == "4":
+        print("\n Option")
+        print("1. Airtime")
+        print("2. Data")
+        opt = input("Enter your option: ")
+        if opt == "1":
+            amount = input("Enter amount to share: ")
+            num = input ("Enter number to share to: ")
+            print("Please note the amount will be deducted from your airtime balance,Are you sure?\n1.\tYes\n2.\tNo")
+            optin = input("Enter your option: ")
+            if optin == "1":
+                print(f" The {num} has been credited with {amount}. Thank you for using our services\nPress 5 to exit")
+            else:
+                print("Select a new option on the mainmenu.")
+        elif opt =="2":
+                 print("\nData Menu")
+                 print("1. 1gb")
+                 print("2. 2gb")
+                 print("3. 5gb")
+                 print("4. 12gb")
+                 print("5. 17gb")
+                 amnt = input("Enter amount in gb: ")
+                 num = input ("Enter number to share to: ")
+                 print("Please note the amount will be deducted from your Data balance,Are you sure?\n1.\tYes\n2.\tNo")
+                 optin = input("Enter your option: ")
+                 if optin == "1":
+                   print(f" The {num} has been credited with {amount}. Thank you for using our services\nPress 5 to exit")
+                 else:
+                     print("Select a new option on the mainmenu.")
+    elif choice == "5":
+        print("Thank you for using our Service.")
+        break
+    else:
+        print("Invalid option. Try again.")
+        
+                  
+
+
+
 
         
 
